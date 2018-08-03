@@ -213,7 +213,6 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     overflow-x: hidden;
-    padding: 0 60px !important;
 }
 
 header {
@@ -222,7 +221,7 @@ header {
     position: fixed;
     width: 100%;
     height: 60px;
-    z-index: 10;
+    z-index: 120;
     top: 0;
     left: 0;
     display: flex;
@@ -260,79 +259,18 @@ header .info_box .info p:nth-child(2) {
     font-weight: bold;
 }
 
-#left_block,
-#right_block {
-    background: #171733;
-    position: fixed;
-    width: 60px;
-    top: 0px;
-    height: 100%;
-    z-index: 5;
-}
-
-#left_block {
-    left: 0;
-    z-index: 15;
-}
-
-#right_block {
-    right: 0;
-    color: #5a5a6f;
-}
 
 .bot_block,
 .header_block {
     background: #171733;
     width: 100%;
-    height: 60px;
-    position: absolute;
+    height: 30px;
     bottom: 0;
     z-index: 99;
 }
 
-.header_block {
-    bottom: auto;
-    top: 0;
-}
 
-#right_block p {
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    position: absolute;
-    bottom: 210px;
-    width: 315px;
-    right: -125px;
-    margin: 0;
-    font-size: 14px;
-}
 
-#left_block #menu {
-    padding: 0 0 0 10px;
-    top: 33vh;
-    position: relative;
-}
-
-#left_block #menu a {
-    display: block;
-    padding: 10px 0 10px 0;
-}
-
-#left_block #menu a:before {
-    content: '';
-    height: 2px;
-    width: 20px;
-    display: block;
-    background: #ffffff;
-    transition: 0.3s;
-}
-
-#left_block #menu .active a:before {
-    width: 30px;
-    background: #00baf2;
-}
 
 h1 {
     font-family: 'Noto Sans', sans-serif;
@@ -342,20 +280,13 @@ h1 {
     font-family: 'Myriad-Pro';
 }
 
-#fullpage {
-
-}
-
-.section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .section_1 {
     background-image: url("../image/bg/section_1_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 60px;
+    padding: 10px 0 30px 0;
 }
 
 .section_1 .form_box {
@@ -377,7 +308,7 @@ h1 {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 46px;
-    margin: 0 0 -5px 0;
+    margin: 0 0 -22px 0;
 }
 
 .section_1 .form_box > p:nth-child(2) {
@@ -392,14 +323,14 @@ h1 {
     text-transform: none;
     font-size: 36px;
     display: block;
-    margin: -10px 0 15px 0;
+    margin: -25px 0 0 0;
 }
 
 .section_1 .form_box > p:nth-child(3),
 .section_1 .form_box > p:nth-child(4) {
     color: #432d95;
     font-size: 36px;
-    margin: 0 0 -10px 0;
+    margin: 0 0 -25px 0;
 }
 
 .section_1 .form_box p:nth-child(4) {
@@ -480,7 +411,7 @@ h1 {
 
 /***********Вторая секция (2)*********************/
 .section_2 {
-
+    padding: 10px 0 20px 0;
 }
 
 .section_2 .flex_box {
@@ -501,6 +432,19 @@ h1 {
     width: 100%;
 }
 
+.section_2 .img_webernetic {
+    margin-bottom: 50px;
+}
+.section_2 .img_webernetic img:nth-child(1) {
+    width: 100%;
+}
+.section_2 .img_webernetic img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    z-index: 1;
+    width: 57%;
+}
 .section_2 .top_block .title {
     font-family: Futuris-Bold;
     font-size: 48px;
@@ -514,7 +458,7 @@ h1 {
 
 .section_2 .top_block .title .color_blue {
     display: block;
-    margin: 0;
+    margin: -20px 0 0 0;
     font-size: 40px;
 }
 
@@ -525,6 +469,7 @@ h1 {
 .section_2 .top_block .color_black {
     font-size: 20px;
     font-family: Futuris-Bold;
+    line-height: normal;
 }
 
 .section_2 .top_block .color_black span {
@@ -534,7 +479,7 @@ h1 {
 .section_2 .middle_block {
     margin-top: 15px;
     background-image: url(../image/bg/section_2_bg_v3_bot.jpg);
-    height: 202px;
+    height: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -565,6 +510,7 @@ h1 {
 
 .section_2 .bottom_block .color_black {
     font-size: 23px;
+    line-height: 1;
 }
 
 .section_2 .bottom_block .color_purple,
@@ -581,6 +527,7 @@ h1 {
     background: url("../image/bg/section_3_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 10px 0 20px 0;
 }
 
 .section_3 .top_block {
@@ -610,7 +557,7 @@ h1 {
 
 .section_3 .middle_block.left {
     font-size: 20px;
-    margin-top: -10px;
+    margin-top: 5px;
 }
 
 .section_3 .middle_block.left p span {
@@ -665,6 +612,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 800px;
 }
 
 .section_4 .section {
@@ -683,6 +631,7 @@ h1 {
 .section_4 .descr {
     font-size: 18px;
     margin-top: 40px;
+    padding-left: 45px;
 }
 
 .section_4 .descr .color_yellow {
@@ -732,7 +681,7 @@ h1 {
 
 .section_5 .descr {
     background: #fff;
-    padding-left: 30px;
+    padding: 10px 0 20px 30px;
 }
 
 .section_5 .descr p {
@@ -767,6 +716,7 @@ h1 {
 
 .section_5 .image img {
     width: 100%;
+    margin: 10px 0 20px 0;
 }
 
 .section_5 .btn_v2 {
@@ -821,7 +771,10 @@ h1 {
     background-repeat: no-repeat;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: center;
+    height: 700px;
+    padding-bottom: 20px;
 }
 
 .section_6 .left_block .flex_box {
@@ -837,6 +790,10 @@ h1 {
     display: flex;
     align-items: stretch;
     flex-wrap: wrap;
+    margin-right: -30px;
+}
+.section_6 .right > .row {
+    width:  100%;
 }
 
 .section_6 .right .row:nth-child(1) {
@@ -866,7 +823,7 @@ h1 {
     border: 1px solid #eff3f4;
     border-top: none;
     vertical-align: middle;
-    padding: 35px 0;
+    padding: 35px 15px;
 }
 
 .section_6 .right .table-bordered {
@@ -899,13 +856,12 @@ h1 {
     background-image: url(../image/bg/section_6_bg_v4_right_bot.jpg);
     background-size: cover;
     text-align: left;
-    padding-left: 30px;
-    padding-bottom: 60px;
     font-family: Futuris-Bold;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px 0 25px 30px;
 }
 
 .section_6 .right .descr .color_orange {
@@ -925,7 +881,8 @@ h1 {
 .section_7 {
     background: url("../image/bg/section_7_bg_v2.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 30%;
+    padding: 10px 0 20px 0;
 }
 
 .section_7 .right {
@@ -942,6 +899,7 @@ h1 {
 
 .section_7 .image img {
     margin-top: 15px;
+    width: 100%;
 }
 
 .section_7 .descr {
@@ -1039,8 +997,7 @@ h1 {
     background-size: cover;
     background-position: center;
     height: 100%;
-    display: flex;
-    align-items: center;
+    padding-bottom: 20px;
 }
 
 .section_8 .left .flex_box {
@@ -1058,7 +1015,7 @@ h1 {
 }
 
 .section_8 .left .descr {
-
+    margin-top: 60px;
 }
 
 .section_8 .left .descr .item {
@@ -1165,7 +1122,7 @@ h1 {
 }
 
 .section_8 .left .punct[data-id='1'] {
-    margin: 39vh auto 0 auto;
+    margin: 38vh auto 0 auto;
 }
 
 .section_8 .left .punct[data-id='2'] {
@@ -1182,7 +1139,7 @@ h1 {
 }
 
 .section_8 .left .punct[data-id='4'] {
-    margin: -8vh auto 0 auto;
+    margin: -3vh auto 0 auto;
 }
 
 .section_8 .left .punct[data-id='4']:before {
@@ -1191,7 +1148,7 @@ h1 {
 }
 
 .section_8 .left .punct[data-id='5'] {
-    margin: 13vh auto 0 auto;
+    margin: 16vh auto 0 auto;
 }
 
 .section_8 .left .punct[data-id='5']:before {
@@ -1201,21 +1158,16 @@ h1 {
 
 .section_8 .right {
     height: 100%;
-    display: flex;
-    align-items: center;
 }
 
-.section_8 .right .content {
-    width: 85%;
-}
 
 .section_8 .right .btn {
-    margin: 5px auto 5px auto;
+    margin: 5px auto 13px auto;
     display: block;
 }
 
 .section_8 .right .item {
-    height: 550px;
+    height: 520px;
 }
 
 .section_8 .right .item p {
@@ -1310,11 +1262,11 @@ h1 {
     display: none;
 }
 .section_9 .items .item {
-    width: 50%;
+    width: 19%;
     text-align: center;
 }
 .section_9 .items .item.first {
-    width: 73%;
+    width: 22%;
     text-align: left;
     border-left: none;
 }
@@ -1404,7 +1356,7 @@ h1 {
 .section_9 .items .item ul {
     margin: 0 0 0 0;
     padding: 0;
-    height: 529px;
+    height: 510px;
     border-bottom: solid 1px;
     display: flex;
     flex-direction: column;
@@ -1430,7 +1382,7 @@ h1 {
     border-right: solid 1px #171733;
 }
 .section_9 .items .item.teh_audit p:nth-child(2) {
-    height: 570px;
+    height: 550px;
     display: flex;
     align-items: center;
 }
@@ -1532,13 +1484,10 @@ h1 {
 
 .section_10 .left_bg {
     background: url(../image/bg/section_10_bg.jpg);
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 55%;
-    position: absolute;
-    height: 100%;
-    margin: 60px 0;
+    height: 760px;
 }
 
 .section_10 .text {
@@ -1546,7 +1495,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-right: 4vw;
+    padding: 0 15px 0 30px;
 }
 
 .section_10 .row {
@@ -1571,7 +1520,7 @@ h1 {
 .section_10 p.color_black {
     font-size: 24px;
     font-weight: bold;
-    margin: 40px 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 .section_10 p.color_black .color_gray {
@@ -1581,7 +1530,7 @@ h1 {
 
 /*********** Одиннадцатое секция (11)*********************/
 .section_11 {
-
+    padding: 10px 0 0 0;
 }
 
 .section_11 .container .row:nth-child(1) {
@@ -1661,7 +1610,7 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 25%;
-    padding: 60px 0;
+    height: 900px;
 }
 
 .section_12 .item {
@@ -1890,20 +1839,21 @@ h1 {
     background-size: cover;
     background-position: right;
     font-family: Futuris-Regular;
-    height: 100%;
+    height: 900px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .section_13 .left .flex_box {
     align-items: center;
-    padding-right: 9vw;
+    padding-right: 4vw;
 }
 
 .section_13 .right {
-    height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .section_13 .right .flex_box {
@@ -2020,7 +1970,7 @@ h1 {
 }
 
 .section_14 .left .social {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .section_14 .left .social a {
@@ -2028,7 +1978,7 @@ h1 {
     margin: 0 15px 0 0;
     border-radius: 50px;
     width: 50px;
-    height: 38px;
+    height: 50px;
     border: solid 1px;
     display: inline-block;
     text-align: center;
@@ -2036,7 +1986,7 @@ h1 {
 }
 
 .map_block {
-    height: 100%;
+    height: 700px;
     display: flex;
 }
 
@@ -2073,6 +2023,7 @@ h1 {
     color: #fff;
     margin: 0;
     text-align: center;
+    width: 100%;
 }
 
 #exampleModal .modal-header {
@@ -2164,7 +2115,6 @@ input:focus {
 
 #map {
     width: 100%;
-    padding: 60px 0;
     margin: 0;
 }
 
@@ -2192,6 +2142,7 @@ input:focus {
     font-weight: bold;
     margin: 0;
     text-align: center;
+    width: 100%;
 }
 .lang_mask {
     display: block;

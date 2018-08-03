@@ -1,138 +1,4 @@
 
-.viseble_1366 {
-    display: none;
-}
-.flex_box {
-    width: 100%;
-    height: 780px;
-    display: flex;
-    justify-content: center;
-}
-@media screen and (max-height: 820px) {
-    .flex_box {
-        height: 710px;
-    }
-}
-@media screen and (max-height: 720px) {
-    .flex_box {
-        height: 630px;
-    }
-}
-.container {
-    max-width: 1490px;
-    width: 100%;
-    display: flex;
-    padding: 0 15px;
-    flex-wrap: wrap;
-}
-.row {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.col-lg-1,
-.col-lg-2,
-.col-lg-3,
-.col-lg-4,
-.col-lg-5,
-.col-lg-6,
-.col-lg-7,
-.col-lg-8,
-.col-lg-9,
-.col-lg-10 {
-    padding: 0 15px;
-}
-
-
-
-
-.col-lg-1 {
-    width: 10%;
-}
-.col-lg-2 {
-    width: 20%;
-}
-.col-lg-3 {
-    width: 30%;
-}
-.col-lg-4 {
-    width: 40%;
-}
-.col-lg-5 {
-    width: 50%;
-}
-.col-lg-6 {
-    width: 60%;
-}
-.col-lg-7 {
-    width: 70%;
-}
-.col-lg-8 {
-    width: 80%;
-}
-.col-lg-9 {
-    width: 90%;
-}
-.col-lg-10 {
-    width: 100%;
-}
-
-.hidden {
-    display: none;
-}
-
-@media screen and (max-height: 901px) {
-    .section_8 .left .punct[data-id='1'] {
-        margin: 43vh auto 0 auto;
-    }
-    .section_8 .left .punct[data-id='3'] {
-        margin: 28vh auto 0 auto;
-    }
-    .section_8 .left .punct[data-id='4'] {
-        margin: -2vh auto 0 auto;
-    }
-    .section_8 .left .punct[data-id='5'] {
-        margin: 6vh auto 0 auto;
-    }
-}
-@media (max-width: 1500px) {
-    .col-md-1 {
-        width: 10%;
-    }
-    .col-md-2 {
-        width: 20%;
-    }
-    .col-md-3 {
-        width: 30%;
-    }
-    .col-md-4 {
-        width: 40%;
-    }
-    .col-md-5 {
-        width: 50%;
-    }
-    .col-md-6 {
-        width: 60%;
-    }
-    .col-md-7 {
-        width: 70%;
-    }
-    .col-md-8 {
-        width: 80%;
-    }
-    .col-md-9{
-        width: 90%;
-    }
-    .col-md-10 {
-        width: 100%;
-    }
-}
-
-
-
-
-
 
 
 
@@ -580,44 +446,6 @@
 
 
 @media screen and (max-width: 1366px) {
-
-    .col-md_1366-0,
-    .hidden_1366 {
-        display: none;
-    }
-    .viseble_1366 {
-        display: block;
-    }
-    .col-md_1366-1 {
-        width: 10%;
-    }
-    .col-md_1366-2 {
-        width: 20%;
-    }
-    .col-md_1366-3 {
-        width: 30%;
-    }
-    .col-md_1366-4 {
-        width: 40%;
-    }
-    .col-md_1366-5 {
-        width: 50%;
-    }
-    .col-md_1366-6 {
-        width: 60%;
-    }
-    .col-md_1366-7 {
-        width: 70%;
-    }
-    .col-md_1366-8 {
-        width: 80%;
-    }
-    .col-md_1366-9{
-        width: 90%;
-    }
-    .col-md_1366-10 {
-        width: 100%;
-    }
 
     .section_1 .form_box {
         align-items: center;
@@ -1072,43 +900,6 @@
 
 
 @media screen and (max-width: 1280px) {
-    .col-md_1280-0,
-    .hidden_1280 {
-        display: none;
-    }
-    .viseble_1280 {
-        display: block;
-    }
-    .col-md_1280-1 {
-        width: 10%;
-    }
-    .col-md_1280-2 {
-        width: 20%;
-    }
-    .col-md_1280-3 {
-        width: 30%;
-    }
-    .col-md_1280-4 {
-        width: 40%;
-    }
-    .col-md_1280-5 {
-        width: 50%;
-    }
-    .col-md_1280-6 {
-        width: 60%;
-    }
-    .col-md_1280-7 {
-        width: 70%;
-    }
-    .col-md_1280-8 {
-        width: 80%;
-    }
-    .col-md_1280-9{
-        width: 90%;
-    }
-    .col-md_1280-10 {
-        width: 100%;
-    }
 
     .section_3 .image img {
         height: auto;
@@ -1407,24 +1198,7 @@
         display: block;
     }
 
-    .col-sm-1 {
-        width: 16.66%;
-    }
-    .col-sm-2 {
-        width: 33.33%;
-    }
-    .col-sm-3 {
-        width: 49.98%;
-    }
-    .col-sm-4 {
-        width: 66.64%;
-    }
-    .col-sm-5 {
-        width: 83.3%;
-    }
-    .col-sm-6 {
-        width: 100%;
-    }
+
 
     .flex_box {
         height: 630px;
@@ -1963,34 +1737,6 @@
 }
 @media screen and (max-width: 719px) {
 
-    .hidden-xs {
-        display: none;
-    }
-    .visible-xs {
-        display: block;
-    }
-
-    .col-xs-1 {
-        width: 16.66%;
-    }
-    .col-xs-2 {
-        width: 33.33%;
-    }
-    .col-xs-3 {
-        width: 49.98%;
-    }
-    .col-xs-4 {
-        width: 66.64%;
-    }
-    .col-xs-5 {
-        width: 83.3%;
-    }
-    .col-xs-6 {
-        width: 100%;
-    }
-    body {
-        margin: 0;
-    }
 
     .bot_block {
         position: relative;

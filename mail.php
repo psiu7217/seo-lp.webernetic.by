@@ -20,9 +20,9 @@ if ($_POST['phone'] == '') {
     $message .= '</body></html>';
 
 
-    mail($to, $subject, $message, $headers);
+    //mail($to, $subject, $message, $headers);
     //Это для Ани маркетолога
-    mail('dao@webernetic.by', $subject, $message, $headers);
+    mail('dev@webernetic.by', $subject, $message, $headers);
 
 
 }else {

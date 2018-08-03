@@ -45,10 +45,11 @@ $(document).ready ( function(){
 
 
     //Модальное окно
-    $('button[data-toggle = modal]').click(function () {
+    /*$('button[data-toggle = modal]').click(function () {
         $('#exampleModal').show();
     });
     $('.modal .close, .modal .bg, .modal .btn.btn-secondary').click(function () {
         $('.modal').hide();
     });
+    */
 });
